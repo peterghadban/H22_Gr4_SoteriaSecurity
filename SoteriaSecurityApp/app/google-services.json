@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "419420727284",
+    "project_id": "fir-server-d06bf",
+    "storage_bucket": "fir-server-d06bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419420727284:android:31ff074e2e3b3ed9927ba1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419420727284-fdohlgv4r9teqp5n6opdk3b2pol5t6n0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "b5587148f19bbe9c135bf005709bb746c8f09a10"
+          }
+        },
+        {
+          "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATwGabknekN4lMsc4iulCpAA421d_i_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419420727284:android:4697f18a6a822bfa927ba1",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationzikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATwGabknekN4lMsc4iulCpAA421d_i_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419420727284:android:06121b3d54a72ed6927ba1",
+        "android_client_info": {
+          "package_name": "com.example.soteriasecurityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATwGabknekN4lMsc4iulCpAA421d_i_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419420727284-8hcu2n0u2eu269rr89i5faip522qh3rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

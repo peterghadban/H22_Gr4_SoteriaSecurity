@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SoteriaSecurityApp</string>
+    <string name="changer_de_mot_de_passe" />
+    <string name="email" />
+</resources>

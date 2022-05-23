@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bleuPale"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="260dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="646dp"
+        android:text="À Propos de Nous"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/parag_1"
+        android:layout_width="379dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="555dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Soteria Security est un système d'alarme intelligent assisté par l'application que vous utilisez en ce moment"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/parag_2"
+        android:layout_width="377dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="441dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Ce projet nous a intéressé à cause de nos plans de carrière. En effet, notre équipe est comosée d'étudiants qui vont en génie logiciel, mécanique ainsi qu'électrique.Nous nous sommes donc réunis pour nous préparer à nos carrières tout en gardant votre maison sécurisée."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parag_1" />
+
+    <TextView
+        android:id="@+id/parag_3"
+        android:layout_width="373dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Notre but principal est de s'assurer que nos clients soient en sécurité. De plus, nous visons à améliorer votre expérience avec notre application en utilisant les données obtenues pour vous montrer une vue détaillée des moments où votre porte s'ouvre.Le système d'alarme est composé de trois pièces principales: un détecteur de mouvement à rayons infrarouges, un Raspberry Pi et enfin une base de données FireBase."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parag_2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/parag_4"
+        android:layout_width="376dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="195dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Le Raspberry Pi est ce qui collecte les données grâce au détecteur de mouvement. Les données seront ensuite envoyés à la base de données FireBase, qui enverra directement une notification à tout appareil qui possède notre application. "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parag_3" />
+
+    <TextView
+        android:id="@+id/parag_5"
+        android:layout_width="375dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="127dp"
+        android:text="Pour plus d'informations, veuillez nous contacter à notre adresse courriel: soteriasecurity@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parag_4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
